@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #eee;
+    min-width: 576px;
+    width: 100%;
+  
+}
+
+ 
+/* Header General */
+
+.header__ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70px;
+    width: 100%;
+    background-color: #eee;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.header__ul li {
+    display: inline-block;
+    margin: 0 15px;
+    line-height: 80px;
+}
+
+.header__ul li:first-child{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.header__ul li i{
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+.header__ul li a {
+    color: black;
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 15px;
+}
+
+.header__ul a:hover{
+    color: gray;
+    transition: 0.10ms;
+}
+
+
+/* Footer General */
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+}
+
+.footer__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__ul a {
+    cursor: pointer;
+    color: #333;
+}
+
+.footer__ul li i{
+    font-size: 35px;
+    padding: 10px;
+}
+
+#instagram  a:hover{
+    color: #E1306C;
+}
+
+#facebook a:hover{
+    color: #405DE6;
+}
+
+#whatsapp a:hover{
+    color: #28D146;
+}
+
+#visa a:hover{
+    color: #1434CB;
+}
+
+#mastercard a:hover{
+    color: #EB001B
+}
+
+#bitcoin a:hover{
+    color: #F7931A;
+}
+
+/* Css aplicado en el INDEX */
+
+
+.index__img{
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 35px;
+    place-content: center;
+    height: 700px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.index__img p{
+   color: #333;
+   text-align: center;
+   margin: 25px;
+   padding: 5px 5px;
+   font-size: 25px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.index__img img{
+    width: 1500px;
+    height: 100%;
+}
+
+ /* Css en la seccion de Form */
+
+#main__form{
+    width: 400px;
+    background-color: #354f52;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+   
+    color: #fff;
+}
+
+.text__form{
+    text-align: center;
+}
+
+input {
+    height: 30px;
+}
+
+
+/* CSS en Tienda */
+
+#main__tienda{
+    padding-left: 30px;
+}
+
+.ol__tienda a{
+    color: gray;
+    font-size: 20px;
+    
+}
+
+
+.section__img img{
+    height: 150px;
+    width: 150px;
+}
+
+/* CSS en Ubicacion */
+
+#main__preg{
+    padding-left: 30px;
+}
+
+.section__preg h1{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Media Query */
+
+/* Medidas para Smartphone */
+
+@media screen and (min-width: 320px) and (max-width: 576px){
+ 
+    /* Header Responsive */
+    .header__ul{
+        width: 100%;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    .header__ul li {
+        display:inline-flex;
+        margin: 0 15px;
+        line-height: 30px;
+    }
+    
+    .header__ul li i{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header__ul li a {
+        color: black;
+        font-size: 13px;
+        padding: 15px;
+        padding-left: 10px;
+    }
+    
+ /* Footer Responsive */   
+
+ #footer {
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.footer__ul{
+    display: flex;
+    justify-content: center;
+}
+
+/* Index Responsive */
+
+#index__main{
+   height: 100vh;
+   padding: 23px;
+}
+
+.index__img{
+    display: grid;
+    grid-template-columns: repeat(1 2fr);
+    grid-auto-rows: minmax(100px, auto);
+    padding: 35px;
+    place-content: center;
+}
+
+.index__img img{
+    width: 100%;
+    padding-top: 80px;
+}
+
+
+}
+
+/* Medidas para Tablets */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+     /* Header Responsive */
+     .header__ul{
+        width: 100%;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .header__ul li {
+        display:inline-flex;
+        margin: 0 15px;
+        line-height: 30px;
+    }
+    
+    .header__ul li i{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header__ul li a {
+        color: black;
+        font-size: 15px;
+        padding: 10px;   
+    }
+    
+ /* Footer Responsive */   
+
+ #footer {
+    position: fixed; 
+    width: 100%;
+    border-top: 1px groove black;
+}
+#index__main{
+    height: 100vh;
+ }
+ 
+ .index__img{
+     display: grid;
+     grid-template-columns: repeat(1 2fr);
+     grid-auto-rows: minmax(100px, auto);
+     padding: 35px;
+     place-content: center;
+ }
+ 
+ .index__img img{
+     width: 100%;
+  
+ }
+
+
+}
