@@ -50,11 +50,13 @@ body{
     font-size: 20px;
     padding: 3px;
     padding-left: 15px;
+    
 }
 
 .header__ul a:hover{
     color: gray;
     transition: 0.10ms;
+    text-decoration: underline;
 }
 
 
@@ -137,24 +139,67 @@ body{
 
  /* Css en la seccion de Form */
 
-#main__form{
-    width: 400px;
-    background-color: #354f52;
-    padding: 30px;
+ .main__form{
+    width: 450px;
+    background-color: #4a4e69;
+    padding: 35px;
     margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
+    margin-top: 75px;
+    border-radius: 10px;
     font-family: "calibri";
-   
-    color: #fff;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
 }
 
-.text__form{
+.main__form h4{
+    font-size: 35px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-input {
-    height: 30px;
+.form__input{
+    width: 100%;
+    background-color: #cad2c5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+.main__form p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.main__form a{
+    color: white;
+    text-decoration: none;
+}
+
+.main__form a:hover{
+    color: #c9ada7;
+    text-decoration: underline;
+}
+
+.main__form .btn{
+    width: 100%;
+    background-color: #c9ada7;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.main__form .btn:hover{
+    color: white;
+    text-decoration: dashed;
 }
 
 
