@@ -16,17 +16,102 @@
 </head>
 <body>
     <header id="header">
-        <nav>
-            <ul class="header__ul">
-                <li><a href="#"><i class='bx bx-store' ></i></a></li>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../paginas/contacto.html">Registro</a></li>
-                <li><a href="../paginas/ubicacion.html">Ubicacion</a></li>
-                <li><a href="../paginas/preguntas-frecuentes.html">Diseño</a></li>   
-            </ul>
-        </nav>             
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <i class='bx bx-store' ></i>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav__link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__link" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav__link" href="./desing.html">Diseños</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav__link" href="./ubicacion.html">Ubicacion</a>
+                  </li>  
+                </ul>
+              </div>
+            </div>
+            </nav>             
     </header>
         <main id="main__tienda">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../recursos/rodillo.jpg" class="img-thumbnail img__tienda" alt="Rodillo para pintar">
+                <div class="card-body">
+                  <h5 class="card-title">Rodillo Simil</h5>
+                  <p class="card-text">Funciona en cualquier superficie
+                    Evite el desorden y diviértase pintando paredes, cubiertas, techos y muebles con toda la familia. Usa interiores y exteriores; O simplemente cubre marcas de raspado y manchas en segundos.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">1300 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../recursos/guantes 1.jpg" class="img-thumbnail img__tienda" alt="Guantes azules">
+                <div class="card-body">
+                  <h5 class="card-title">Guantes Moteados De Trabajo</h5>
+                  <p class="card-text">Guantes de EXCELENTE calidad. La palma revestida con motas de PVC, le otorga un mejor agarre, convirtiéndolo en el guante antideslizante por excelencia brindando mayor adherencia, flexibilidad, tacto y seguridad.</p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>                  
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">3200$</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../recursos/pincel 2.jpg" class="img-thumbnail img__tienda" alt="Par de pinceles">
+                <div class="card-body">
+                  <h5 class="card-title">Brocha Para Pintar</h5>
+                  <p class="card-text">Filamentos PET de alta densidad. Para la aplicación de selladores, adhesivos y protectores para madera. Indicadas también para pinturas en polvo y acabados rústicos</p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">1700$</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </main>          
         <footer id="footer">
             <ul class="footer__ul">

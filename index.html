@@ -16,19 +16,34 @@
 </head>
 <body>
     <header id="header">
-        <nav>
-            <ul class="header__ul">
-                <li><a href="#"><i class='bx bx-home-alt-2'></i></a></li>
-                <li><a href="paginas/contacto.html">Registro</a></li>
-                <li><a href="paginas/tienda.html">Tienda</a></li>
-                <li><a href="paginas/ubicacion.html">Ubicacion</a></li>
-                <li><a href="paginas/preguntas-frecuentes.html">Diseño</a></li>   
-            </ul>
-        </nav>             
-    </header>
+        <nav class="navbar navbar-expand-lg">
+           <div class="container-fluid">
+               <i class='bx bx-home-alt'></i>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                 <li class="nav-item">
+                   <a class="nav__link" href="./paginas/contacto.html">Registro</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav__link" href="./paginas/tienda.html">Tienda</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav__link" href="./paginas/desing.html">Diseños</a>
+                 </li> 
+                 <li class="nav-item">
+                   <a class="nav__link" href="./paginas/ubicacion.html">Ubicacion</a>
+                 </li>  
+               </ul>
+             </div>
+           </div>
+           </nav>
+       </header>
     <main id="index__main">
         <div class="index__img">
-            <img src= "recursos/asddsa.jpg">
+          <img src="./recursos/indeximg.jpg" class="img-fluid" alt="Index image">
             <p>Encargados de llevar los mejores productos a tu casa.</p>
         </div>
     </main>
