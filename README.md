@@ -2,7 +2,7 @@ Proyecto final del curso de Desarrollo Web de Coderhouse. En esta pagina tratamo
   
   Utilizamos:
   
-  XHTML5 , CSS ( GRID , FLEXBOX ) y Bootstrap.
+  XHTML5 , CSS ( GRID , FLEXBOX ) , Bootstrap y SASS.
   
   Resolucion default : 1.920 x 1.080
   
