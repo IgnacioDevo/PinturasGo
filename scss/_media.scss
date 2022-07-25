@@ -1,0 +1,59 @@
+/* Media Query */
+
+/* Medidas para Smartphone */
+
+@media screen and (min-width: 320px) and (max-width: 576px){
+
+    /* Index Responsive */
+    
+    #index__main{
+       height: 100vh;
+       padding: 23px;
+    }
+    
+    .index__img{
+        display: grid;
+        grid-template-columns: repeat(1 2fr);
+        grid-auto-rows: minmax(100px, auto);
+        padding: 35px;
+        place-content: center;
+    }
+    
+    .index__img img{
+        width: 100%;
+        padding-top: 80px;
+    }
+    
+    
+    }
+    
+    /* Medidas para Tablets */
+    
+    @media screen and (min-width: 576px) and (max-width: 992px){
+         
+        
+     /* Footer Responsive */   
+    
+     #footer {
+        position: fixed; 
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    #index__main{
+        height: 100vh;
+     }
+     
+     .index__img{
+         display: grid;
+         grid-template-columns: repeat(1 2fr);
+         grid-auto-rows: minmax(100px, auto);
+         padding: 35px;
+         place-content: center;
+     }
+     
+     .index__img img{
+         width: 100%;
+      
+     }
+    }
+    

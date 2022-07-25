@@ -1,0 +1,56 @@
+/* Footer General */
+
+#footer {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $my-color-main; }
+  
+  .footer__ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+      & a {
+        cursor: pointer;
+        color: #333;
+      }
+      & li i {
+        font-size: 35px;
+        padding: 10px;
+      }
+  }
+   
+  #instagram a:hover {
+    color: #E1306C; 
+    transition: $animaciones-hover;
+  }
+  
+  #facebook a:hover {
+    color: #405DE6;
+    transition: $animaciones-hover;
+  }
+  
+  #whatsapp a:hover {
+    color: #28D146; 
+    transition: $animaciones-hover;
+  }
+  
+  #visa a:hover {
+    color: #1434CB; 
+    transition: $animaciones-hover;
+  }
+  
+  #mastercard a:hover {
+    color: #EB001B; 
+    transition: $animaciones-hover;
+  }
+  
+  #bitcoin a:hover {
+    color: #F7931A; 
+    transition: $animaciones-hover;
+  }
+
+  #up a:hover{
+    color: #E1306C;
+    transition: $animaciones-hover;
+  }

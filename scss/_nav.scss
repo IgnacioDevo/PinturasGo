@@ -1,0 +1,16 @@
+/* Header General */
+
+#header {
+    padding: 12px;
+    background-color: $my-color-main;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+  
+  .nav__link {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: $my-font-main; }
+  
+  header i {
+    font-size: 30px; }

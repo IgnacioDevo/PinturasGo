@@ -1,0 +1,239 @@
+/* Colores Principales */
+/* Animaciones */
+/* Fuentes */
+/* Footer General */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #dee3de; }
+
+.footer__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .footer__ul a {
+    cursor: pointer;
+    color: #333; }
+  .footer__ul li i {
+    font-size: 35px;
+    padding: 10px; }
+
+#instagram a:hover {
+  color: #E1306C;
+  transition: 0.4s; }
+
+#facebook a:hover {
+  color: #405DE6;
+  transition: 0.4s; }
+
+#whatsapp a:hover {
+  color: #28D146;
+  transition: 0.4s; }
+
+#visa a:hover {
+  color: #1434CB;
+  transition: 0.4s; }
+
+#mastercard a:hover {
+  color: #EB001B;
+  transition: 0.4s; }
+
+#bitcoin a:hover {
+  color: #F7931A;
+  transition: 0.4s; }
+
+#up a:hover {
+  color: #E1306C;
+  transition: 0.4s; }
+
+/* Header General */
+#header {
+  padding: 12px;
+  background-color: #dee3de;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+
+.nav__link {
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif; }
+
+header i {
+  font-size: 30px; }
+
+/* CSS general */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #dee3de;
+  width: 100%; }
+
+/* CSS INDEX */
+.index__img {
+  display: grid;
+  grid-template-columns: repeat(1 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 35px;
+  place-content: center;
+  height: 700px; }
+  .index__img p {
+    color: #333;
+    text-align: center;
+    margin: 25px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif; }
+  .index__img img {
+    width: 1500px;
+    height: 100%;
+    border-bottom: 1px solid black; }
+
+/* CSS CONTACTO */
+.main__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  background-color: #4a4e69;
+  padding: 35px;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 10px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+  .main__form h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center; }
+
+.form__input {
+  width: 100%;
+  background-color: #cad2c5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding-right: 5px;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  color: black;
+  border: none; }
+
+.form__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background: #cad2c5;
+  color: #000;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden; }
+  .form__btn span {
+    position: relative;
+    z-index: 2; }
+  .form__btn::after {
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: #b5838d;
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .3s ease-in-out all;
+    border-radius: 0px 0px 300px 300px; }
+  .form__btn:hover::after {
+    top: 0; }
+
+.main__form p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px; }
+
+.main__form a {
+  color: white;
+  text-decoration: none; }
+
+.main__form a:hover {
+  color: #b5838d;
+  text-decoration: underline; }
+
+.main__form .btn {
+  width: 100%;
+  background-color: #b5838d;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px; }
+
+.main__form .btn:hover {
+  color: white;
+  text-decoration: dashed; }
+
+/* CSS TIENDA */
+#main__tienda {
+  padding: 70px; }
+
+.img__tienda {
+  height: 400px; }
+
+.btn__tienda {
+  background-color: #3e8914; }
+
+.btn__comprar {
+  padding-right: 10px; }
+
+/* CSS UBICACION */
+#main__preg {
+  padding-left: 30px; }
+
+/* Media Query */
+/* Medidas para Smartphone */
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  /* Index Responsive */
+  #index__main {
+    height: 100vh;
+    padding: 23px; }
+  .index__img {
+    display: grid;
+    grid-template-columns: repeat(1 2fr);
+    grid-auto-rows: minmax(100px, auto);
+    padding: 35px;
+    place-content: center; }
+  .index__img img {
+    width: 100%;
+    padding-top: 80px; } }
+
+/* Medidas para Tablets */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Footer Responsive */
+  #footer {
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+  #index__main {
+    height: 100vh; }
+  .index__img {
+    display: grid;
+    grid-template-columns: repeat(1 2fr);
+    grid-auto-rows: minmax(100px, auto);
+    padding: 35px;
+    place-content: center; }
+  .index__img img {
+    width: 100%; } }

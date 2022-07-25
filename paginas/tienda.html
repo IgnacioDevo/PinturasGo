@@ -8,17 +8,28 @@
     <!-- Css Bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- CSS Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- Icono -->
     <link rel="icon" href="../recursos/icon.png">
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="header__tienda">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <i class='bx bx-store' ></i>
+              <div class="btn-group">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class='bx bx-cart'></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#pinturas">Pinturas</a></li>
+                    <li><a class="dropdown-item" href="#herramientas">Herramientas</a></li>
+                    <li><a class="dropdown-item" href="#utilidades">Utilidades</a></li>
+                  </ul>
+                </li>
+              </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -35,15 +46,157 @@
                   </li> 
                   <li class="nav-item">
                     <a class="nav__link" href="./ubicacion.html">Ubicacion</a>
-                  </li>  
+                  </li>                  
                 </ul>
               </div>
             </div>
             </nav>             
     </header>
-        <main id="main__tienda">
+    <main id="main__tienda">
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+           <!-- Seccion Pinturas -->
+            <div class="col" id="pinturas">
+              <div class="card h-100">
+                <img src="../recursos/pintura1.jpg" class="img-thumbnail img__tienda" alt="Pintura Blanco Latex">
+                <div class="card-body">
+                  <h5 class="card-title">Pintura Blanco Latex Interior</h5>
+                  <p class="card-text">Top Line Interior - Exterior es un látex elaborado con emulsiones acrílicas que le otorgan gran durabilidad tanto en interiores como en exteriores. Mezclar bien el producto y aplicarlo con pincel, rodillo o soplete. Se puede incorporar un máximo de 5% de agua para mejorar la pintabilidad.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">5500 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="pinturas">
+              <div class="card h-100">
+                <img src="../recursos/pintura2.jpg" class="img-thumbnail img__tienda" alt="Pintura Magnet Lasur">
+                <div class="card-body">
+                  <h5 class="card-title">Pintura Magnet Lasur</h5>
+                  <p class="card-text"> Mantiene la belleza natural de la madera, presenta un acabado satinado e incoloro que realza la textura y las vetas de la madera. Tambien cuenta con un facil mantenimiento. Como no forma película superficial, no es necesario removerlo. Sólo se debe limpiar la superficie con un trapo embebido en aguarrás y ya esta lista para pintar.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">3300 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="pinturas">
+              <div class="card h-100">
+                <img src="../recursos/pintura3.jpg" class="img-thumbnail img__tienda" alt="Latex Blanco Paredes Interior">
+                <div class="card-body">
+                  <h5 class="card-title">Latex Blanco Interior 24kg</h5>
+                  <p class="card-text">Funciona en cualquier superficie
+                    Látex Blanco Interior Paredes Blancas es un látex para interiores elaborado con emulsiones copolímericas, que le otorgan gran durabilidad y mayor blancura. Protege y decora. Aplicación del producto:
+                    Mezclar bien el producto y aplicarlo con pincel, rodillo o soplete. 
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">4500 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="pinturas">
+              <div class="card h-100">
+                <img src="../recursos/pintura4.jpg" class="img-thumbnail img__tienda" alt="Esmalte Sintetico">
+                <div class="card-body">
+                  <h5 class="card-title">Esmalte Sintetico Doble Accion</h5>
+                  <p class="card-text">Top Line Brillante es un esmalte sintético de acabado brillante, formulado en base a resinas sintéticas y pigmentos. Es ideal para proteger y decorar superficies de metal, madera o mampostería; en ambientes interiores o exteriores.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">3850 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="pinturas">
+              <div class="card h-100">
+                <img src="../recursos/pintura5.jpg" class="img-thumbnail img__tienda" alt="Fijador Sellador Antihongo">
+                <div class="card-body">
+                  <h5 class="card-title">Fijador Sellador Antihongo</h5>
+                  <p class="card-text">Prima Facie Fijador Sellador ha sido formulado en base a polímeros acrílicos y funguicidas especiales para fijar y sellar superficies y emparejar la absorción de pinturas al Látex, a la cal e inclusive sintéticas. Se puede aplicar sobre mampostería, yeso y enduido. 
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">2500 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="pinturas">
+              <div class="card h-100">
+                <img src="../recursos/pintura6.jpg" class="img-thumbnail img__tienda" alt="Membrana Poliuretanica">
+                <div class="card-body">
+                  <h5 class="card-title">Membrana Poliuretanica en pasta</h5>
+                  <p class="card-text">Top Line Membrana en Pasta es un impermeabilizante elastomérico en pasta, elaborado con emulsiones copolímeras y filtros UV. Transitable, de fácil aplicación, resulta un producto de alta resistencia a la lluvia y al sol. Se aplica sobre techos de baldosas, losas, chapas de fibrocemento, membranas asfálticas aluminizadas envejecidas.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">7000 $</small>
+                </div>
+              </div>
+            </div>
+            <!-- Seccion Herramientas -->
+            <div class="col" id="herramientas">
               <div class="card h-100">
                 <img src="../recursos/rodillo.jpg" class="img-thumbnail img__tienda" alt="Rodillo para pintar">
                 <div class="card-body">
@@ -67,34 +220,13 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" id="herramientas">
               <div class="card h-100">
-                <img src="../recursos/guantes 1.jpg" class="img-thumbnail img__tienda" alt="Guantes azules">
-                <div class="card-body">
-                  <h5 class="card-title">Guantes Moteados De Trabajo</h5>
-                  <p class="card-text">Guantes de EXCELENTE calidad. La palma revestida con motas de PVC, le otorga un mejor agarre, convirtiéndolo en el guante antideslizante por excelencia brindando mayor adherencia, flexibilidad, tacto y seguridad.</p>
-                  <div class="btn-group">
-                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Comprar
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">1</a></li>
-                      <li><a class="dropdown-item" href="#">2</a></li>
-                      <li><a class="dropdown-item" href="#">3</a></li>
-                    </ul>                  
-                  </div>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">3200$</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="../recursos/pincel 2.jpg" class="img-thumbnail img__tienda" alt="Par de pinceles">
+                <img src="../recursos/pincel 2.jpg" class="img-thumbnail img__tienda" alt="Brocha Para Pintar">
                 <div class="card-body">
                   <h5 class="card-title">Brocha Para Pintar</h5>
-                  <p class="card-text">Filamentos PET de alta densidad. Para la aplicación de selladores, adhesivos y protectores para madera. Indicadas también para pinturas en polvo y acabados rústicos</p>
+                  <p class="card-text">Filamentos PET de alta densidad. Para la aplicación de selladores, adhesivos y protectores para madera. Indicadas también para pinturas en polvo y acabados rústicos
+                    </p>
                   <div class="btn-group">
                     <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Comprar
@@ -107,23 +239,118 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">1700$</small>
+                  <small class="text-muted">1700 $</small>
                 </div>
               </div>
             </div>
-          </div>
-        </main>          
-        <footer id="footer">
+            <div class="col" id="herramientas">
+              <div class="card h-100">
+                <img src="../recursos/cintaenmascar.jpg" class="img-thumbnail img__tienda" alt="Cinta de Enmascarar">
+                <div class="card-body">
+                  <h5 class="card-title">Cinta de Enmascarar</h5>
+                  <p class="card-text"> El papel soporte está saturado para ayudar a evitar la rotura al intentar removerlo pero sin quitarle facilidad de corte. Adhesivo base caucho de resina que le otorga una alta adhesión inicial. Buen poder de adhesión que resiste el efecto de levantado de bordes evitando re trabajo.</p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>                  
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">350 $</small>
+                </div>
+              </div>
+            </div>
+            <!-- Seccion Utilidad -->
+            <div class="col" id="utilidades">
+              <div class="card h-100">
+                <img src="../recursos/kitpintor.jpg" class="img-thumbnail img__tienda" alt="Kit Para Pintura">
+                <div class="card-body">
+                  <h5 class="card-title">Kit Para Pintura Fravida</h5>
+                  <p class="card-text">Se ajusta mejor a los diferentes tipos de cara. Además, presenta al usuario un campo visual mas amplio.
+                    Para utilizar con dos filtros de conexión tipo encastre bayoneta. De excelente confort y diseño.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">4300 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="utilidades">
+              <div class="card h-100">
+                <img src="../recursos/guantesp.webp" class="img-thumbnail img__tienda" alt="Guantes De Trabajo Negro">
+                <div class="card-body">
+                  <h5 class="card-title">Guantes De Trabajo Negro</h5>
+                  <p class="card-text">Funciona en cualquier superficie
+                    Guantes tejidos en poliéster sin costuras internas bañados en PU espumado. El puño está integrado al guante y mide 7 cm aproximadamente.
+                    </p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">700 $</small>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="utilidades">
+              <div class="card h-100">
+                <img src="../recursos/maquinapintura.webp" class="img-thumbnail img__tienda" alt="Maquina Pistola Para Pintar Latex">
+                <div class="card-body">
+                  <h5 class="card-title">Maquina Pistola Para Pintar Latex</h5>
+                  <p class="card-text">Tipos de pinturas: Este equipo de pintar a soplete se puede utilizar tanto con pinturas base solvente  como con pintutas base acuosa . También con lacas , imprimaciones, pinturas de dos componentes, selladores, anti óxidos y selladores para maderas-preservantes.</p>
+                  <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle btn__tienda" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comprar
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">14000$</small>
+                </div>
+              </div>
+            </div>
+          </div> 
+    </main>            
+    <footer id="footer__tienda">
             <ul class="footer__ul">
                 <li id="instagram"><a href="#"><i class='bx bxl-instagram' ></i></a></li>
                 <li id="facebook"><a href="#"><i id="facebook" class='bx bxl-facebook-square'></i></a></li>
                 <li id="whatsapp"><a href="#"><i id="whatsapp" class='bx bxl-whatsapp' ></i></a></li>
                 <li id="visa"><a href="#"><i id="visa" class='bx bxl-visa' ></i></a></li>
                 <li id="mastercard"><a href="#"><i id="mastercard" class='bx bxl-mastercard' ></i></a></li>
-                <li id="bitcoin"><a href="#"><i id="bitcoin" class='bx bxl-bitcoin' ></i></a></li> 
+                <li id="bitcoin"><a href="#"><i id="bitcoin" class='bx bxl-bitcoin' ></i></a></li>
+                <li id="up"><a href="#"><i class='bx bx-up-arrow-alt'></i></a></li>
             </ul>
-        </footer>
+    </footer>
 <!-- JS Bootsrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
+

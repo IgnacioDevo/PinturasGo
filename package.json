@@ -1,0 +1,25 @@
+{
+  "name": "pag",
+  "version": "1.0.0",
+  "description": "Proyecto final del curso de Desarrollo Web de Coderhouse. En esta pagina tratamos de replicar una tienda de pinturas, con su respectivo contacto y ubicacion. Tambien tenemos una tienda y una seccion de diseño, donde podemos ver algunos ambientes y sus respectivos colores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnacioDevo/prueba1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgnacioDevo/prueba1/issues"
+  },
+  "homepage": "https://github.com/IgnacioDevo/prueba1#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
