@@ -4,6 +4,12 @@
 
 @media screen and (min-width: 320px) and (max-width: 576px){
 
+    .footer__contacto{
+        width: 100%;
+        background-color: $my-color-main;
+       
+    }
+
     /* Index Responsive */
     
     #index__main{
@@ -24,21 +30,50 @@
         padding-top: 80px;
     }
     
-    
+    /* Design Responsive */
+
+ .article__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.section__p{
+    margin: 0 auto;
+    align-self: center;
+    & h1{
+        text-align: start;
+        letter-spacing: normal;
+        line-height: 50px;
+        font-family: "adobe-garamond-pro";
     }
+    & p{
+        text-align: start;
+        letter-spacing: normal;
+        line-height: 15px;
+        font-family: Georgia, "serif";
+        color: #605a53;
+    }
+}
+
+.section__ol{
+    padding: 5px;
+    margin: 0;
+    & a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #222222;
+    }
+    }    
+    } 
     
     /* Medidas para Tablets */
     
     @media screen and (min-width: 576px) and (max-width: 992px){
-         
-        
-     /* Footer Responsive */   
+
     
-     #footer {
-        position: fixed; 
-        width: 100%;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    }
+
     #index__main{
         height: 100vh;
      }
@@ -55,5 +90,43 @@
          width: 100%;
       
      }
+       /* Design Responsive */
+
+ .article__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.section__p{
+    margin: 0 auto;
+    align-self: center;
+    & h1{
+        text-align: start;
+        letter-spacing: normal;
+        line-height: 50px;
+        font-family: "adobe-garamond-pro";
     }
+    & p{
+        text-align: start;
+        letter-spacing: normal;
+        line-height: 15px;
+        font-family: Georgia, "serif";
+        color: #605a53;
+    }
+}
+
+.section__ol{
+    padding: 5px;
+    margin: 0;
+    & a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #222222;
+    }
+} 
+    }
+
+    
     
