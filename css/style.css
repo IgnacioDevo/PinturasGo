@@ -189,11 +189,6 @@ body {
   color: white;
   text-decoration: dashed; }
 
-#footer__contacto {
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
-
 /* CSS TIENDA */
 #main__tienda {
   padding: 70px; }
@@ -226,6 +221,12 @@ body {
     letter-spacing: normal;
     line-height: 40px;
     font-family: "adobe-garamond-pro"; }
+  .section__p h2 {
+    text-align: start;
+    letter-spacing: normal;
+    line-height: 20px;
+    font-size: 25px;
+    font-family: "adobe-garamond-pro"; }
   .section__p p {
     text-align: start;
     letter-spacing: normal;
@@ -240,6 +241,38 @@ body {
     text-decoration: none;
     font-size: 15px;
     color: #222222; }
+
+.amarillo__esmstd:hover {
+  color: #ffb703;
+  transition: 0.4s; }
+
+.crema__esmstd:hover {
+  color: #cad2c5;
+  transition: 0.4s; }
+
+.gris__esmstd:hover {
+  color: #6c757d;
+  transition: 0.4s; }
+
+.tabaco__esmstd:hover {
+  color: #7f4f24;
+  transition: 0.4s; }
+
+.marron__esmstd:hover {
+  color: #582f0e;
+  transition: 0.4s; }
+
+.verde__esmstd:hover {
+  color: #588157;
+  transition: 0.4s; }
+
+.cyan__esmstd:hover {
+  color: #005f73;
+  transition: 0.4s; }
+
+.bone__esmstd:hover {
+  color: #e4d0ab;
+  transition: 0.4s; }
 
 /* Media Query */
 /* Medidas para Smartphone */

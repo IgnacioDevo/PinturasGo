@@ -15,6 +15,13 @@
         line-height: 40px;
         font-family: "adobe-garamond-pro";
     }
+    & h2{
+        text-align: start;
+        letter-spacing: normal;
+        line-height: 20px;
+        font-size: 25px;
+        font-family: "adobe-garamond-pro";
+    }
     & p{
         text-align: start;
         letter-spacing: normal;
@@ -34,4 +41,43 @@
     }
 } 
 
+.amarillo__esmstd:hover{
+    color: #ffb703;
+    transition: $animaciones-hover;
+}
+
+.crema__esmstd:hover{
+    color: #cad2c5;
+    transition: $animaciones-hover;
+}
+
+.gris__esmstd:hover{
+    color: #6c757d;
+    transition: $animaciones-hover;
+}
+
+.tabaco__esmstd:hover{
+    color: #7f4f24;
+    transition: $animaciones-hover;
+}
+
+.marron__esmstd:hover{
+    color: #582f0e;
+    transition: $animaciones-hover;
+}
+
+.verde__esmstd:hover{
+    color: #588157;
+    transition: $animaciones-hover;
+}
+
+.cyan__esmstd:hover{
+    color: #005f73;
+    transition: $animaciones-hover;
+}
+
+.bone__esmstd:hover{
+    color: #e4d0ab;
+    transition: $animaciones-hover;
+}
  
