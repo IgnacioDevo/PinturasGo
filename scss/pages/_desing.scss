@@ -10,23 +10,17 @@
     margin: 0 auto;
     align-self: center;
     & h1{
-        text-align: start;
-        letter-spacing: normal;
+        @include escrituras;
         line-height: 40px;
-        font-family: "adobe-garamond-pro";
     }
     & h2{
-        text-align: start;
-        letter-spacing: normal;
+        @include escrituras;
         line-height: 20px;
         font-size: 25px;
-        font-family: "adobe-garamond-pro";
     }
     & p{
-        text-align: start;
-        letter-spacing: normal;
-        line-height: 19.2px;
-        font-family: Georgia, "serif";
+        @include escrituras;
+        line-height: 19.2px;  
         color: #605a53;
     }
 }
@@ -35,6 +29,7 @@
     padding: 10px;
     margin: 0;
     & a{
+        @include escrituras;
         text-decoration: none;
         font-size: 15px;
         color: #222222;

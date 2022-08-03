@@ -14,3 +14,12 @@ $animaciones-hover: 0.4s;
 /* Fuentes */
 
 $my-font-main: 'Rubik', sans-serif;
+
+// MIXIN
+
+@mixin escrituras { 
+   text-align: start;
+   letter-spacing: normal; 
+   font-family: "adobe-garamond-pro";
+    
+}

@@ -31,8 +31,8 @@
   color: #28D146;
   transition: 0.4s; }
 
-#visa a:hover {
-  color: #1434CB;
+#linkedin a:hover {
+  color: #0e76a8;
   transition: 0.4s; }
 
 #mastercard a:hover {
@@ -87,7 +87,7 @@ body {
   padding: 35px;
   place-content: center;
   height: 700px; }
-  .index__img p {
+  .index__img h1 {
     color: #333;
     text-align: center;
     margin: 25px;
@@ -189,6 +189,9 @@ body {
   color: white;
   text-decoration: dashed; }
 
+.contact__footer {
+  background-color: #E3DAC9; }
+
 /* CSS TIENDA */
 #main__tienda {
   padding: 70px; }
@@ -201,6 +204,9 @@ body {
 
 .btn__comprar {
   padding-right: 10px; }
+
+.footer__tienda {
+  border-top: 1px ridge #A0A0A0; }
 
 /* CSS UBICACION */
 #main__preg {
@@ -219,25 +225,28 @@ body {
   .section__p h1 {
     text-align: start;
     letter-spacing: normal;
-    line-height: 40px;
-    font-family: "adobe-garamond-pro"; }
+    font-family: "adobe-garamond-pro";
+    line-height: 40px; }
   .section__p h2 {
     text-align: start;
     letter-spacing: normal;
+    font-family: "adobe-garamond-pro";
     line-height: 20px;
-    font-size: 25px;
-    font-family: "adobe-garamond-pro"; }
+    font-size: 25px; }
   .section__p p {
     text-align: start;
     letter-spacing: normal;
+    font-family: "adobe-garamond-pro";
     line-height: 19.2px;
-    font-family: Georgia, "serif";
     color: #605a53; }
 
 .section__ol {
   padding: 10px;
   margin: 0; }
   .section__ol a {
+    text-align: start;
+    letter-spacing: normal;
+    font-family: "adobe-garamond-pro";
     text-decoration: none;
     font-size: 15px;
     color: #222222; }
@@ -277,9 +286,6 @@ body {
 /* Media Query */
 /* Medidas para Smartphone */
 @media screen and (min-width: 320px) and (max-width: 576px) {
-  .footer__contacto {
-    width: 100%;
-    background-color: #E3DAC9; }
   /* Index Responsive */
   #index__main {
     height: 100vh;
