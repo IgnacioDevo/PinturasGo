@@ -1,12 +1,12 @@
 /* CSS DESING */ 
- .article__main{
+ .section__design{
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     padding: 20px;
 }
 
-.section__p{
+.data__design{
     margin: 0 auto;
     align-self: center;
     & h1{
@@ -25,7 +25,7 @@
     }
 }
 
-.section__ol{
+.ol__design{
     padding: 10px;
     margin: 0;
     & a{
@@ -75,4 +75,4 @@
     color: #e4d0ab;
     transition: $animaciones-hover;
 }
- 
+

@@ -26,21 +26,25 @@
     
     /* Design Responsive */
 
- .article__main{
+ .section__design{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px;
 }
 
-.section__p{
+.data__design{
     margin: 0 auto;
     align-self: center;
     & h1{
-        text-align: start;
-        letter-spacing: normal;
-        line-height: 50px;
-        font-family: "adobe-garamond-pro";
+        @include escrituras;
+        line-height: 30px;
+        font-size: 33px;
+    }
+    & h2{
+        padding: 5px;
+        font-size: 20px;
+        text-align: center;
     }
     & p{
         text-align: start;
@@ -51,7 +55,7 @@
     }
 }
 
-.section__ol{
+.ol__design{
     padding: 5px;
     margin: 0;
     & a{
@@ -60,8 +64,8 @@
         color: #222222;
     }
     }    
-    } 
-    
+} 
+  
     /* Medidas para Tablets */
     
     @media screen and (min-width: 576px) and (max-width: 992px){
