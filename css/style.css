@@ -55,7 +55,7 @@
 
 .nav__link {
   padding: 15px;
-  color: black;
+  color: #696969;
   text-decoration: none;
   font-size: 20px;
   font-family: "Rubik", sans-serif; }
@@ -64,7 +64,11 @@ header i {
   font-size: 30px; }
 
 .stay__link {
-  color: #7C7777; }
+  font-size: 22px;
+  color: #000000; }
+
+.stay__link:hover {
+  color: #000000; }
 
 /* CSS general */
 * {
@@ -322,19 +326,22 @@ body {
 /* Media Query */
 /* Medidas para Smartphone */
 @media screen and (min-width: 320px) and (max-width: 576px) {
+  /* Nav Responsive */
+  .nav__link {
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #696969; }
   /* Index Responsive */
-  #index__main {
-    height: 100vh;
-    padding: 23px; }
   .index__img {
-    display: grid;
-    grid-template-columns: repeat(1 2fr);
-    grid-auto-rows: minmax(100px, auto);
-    padding: 35px;
-    place-content: center; }
-  .index__img img {
-    width: 100%;
-    padding-top: 80px; }
+    grid-gap: 30px;
+    padding: 0;
+    height: 550px; }
+    .index__img img {
+      width: 100%; }
+    .index__img h1 {
+      letter-spacing: normal;
+      font-size: 25px; }
   /* Design Responsive */
   .section__design {
     display: flex;
@@ -349,7 +356,7 @@ body {
       letter-spacing: normal;
       font-family: "adobe-garamond-pro";
       line-height: 30px;
-      font-size: 33px; }
+      font-size: 30px; }
     .data__design h2 {
       padding: 5px;
       font-size: 20px;
@@ -357,29 +364,48 @@ body {
     .data__design p {
       text-align: start;
       letter-spacing: normal;
-      line-height: 15px;
+      line-height: 20px;
       font-family: Georgia, "serif";
       color: #605a53; }
   .ol__design {
-    padding: 5px;
+    padding: 0;
     margin: 0; }
     .ol__design a {
       text-decoration: none;
       font-size: 15px;
-      color: #222222; } }
+      color: #222222; }
+  /* Ubicacion Responsive */
+  .envios__ubicacion {
+    padding: 70px;
+    gap: 20px; }
+    .envios__ubicacion .row {
+      flex-direction: column;
+      gap: 10px; }
+    .envios__ubicacion .img-fluid {
+      width: 75%;
+      height: 150px; }
+    .envios__ubicacion .p__ubicacion {
+      text-align: center;
+      padding: 10px;
+      font-size: 23px; }
+  /* Contacto Responsive */
+  .main__form {
+    width: 360px; }
+  .main__form p {
+    padding: 15px;
+    line-height: 20px; } }
 
 /* Medidas para Tablets */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  #index__main {
-    height: 100vh; }
+  /* Nav Responsive */
+  .nav__link {
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #696969; }
+  /* Index Responsive */
   .index__img {
-    display: grid;
-    grid-template-columns: repeat(1 2fr);
-    grid-auto-rows: minmax(100px, auto);
-    padding: 35px;
-    place-content: center; }
-  .index__img img {
-    width: 100%; }
+    padding: 45px; }
   /* Design Responsive */
   .article__main {
     display: flex;
@@ -392,8 +418,8 @@ body {
     .section__p h1 {
       text-align: start;
       letter-spacing: normal;
-      line-height: 50px;
-      font-family: "adobe-garamond-pro"; }
+      font-family: "adobe-garamond-pro";
+      line-height: 50px; }
     .section__p p {
       text-align: start;
       letter-spacing: normal;
@@ -401,9 +427,24 @@ body {
       font-family: Georgia, "serif";
       color: #605a53; }
   .section__ol {
-    padding: 5px;
-    margin: 0; }
+    padding: 5px; }
     .section__ol a {
+      text-align: start;
+      letter-spacing: normal;
+      font-family: "adobe-garamond-pro";
       text-decoration: none;
-      font-size: 15px;
-      color: #222222; } }
+      font-size: 20px;
+      color: #222222; }
+  .envios__ubicacion {
+    padding: 50px;
+    gap: 25px; }
+    .envios__ubicacion .row {
+      flex-direction: row;
+      gap: 10px; }
+    .envios__ubicacion .img-fluid {
+      width: 75%;
+      height: 140px; }
+    .envios__ubicacion .p__ubicacion {
+      text-align: center;
+      padding: 10px;
+      font-size: 20px; } }
