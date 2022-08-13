@@ -6,7 +6,7 @@ Proyecto final del curso de Desarrollo Web de Coderhouse. En esta pagina tratamo
   
   Resolucion default : 1.920 x 1.080
   
-  Smartphone: 320px > 576px
+  Smartphone: 340px > 576px
   
   Tablet: 576px > 992px
   
