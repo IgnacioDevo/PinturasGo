@@ -4,14 +4,26 @@
     flex-direction: row;
     align-items: center;
     padding: 20px;
+    border-bottom: 2px solid #beb2a4;
+}
+
+.h1__design{
+    padding: 18px;
+    text-align: center;
+    letter-spacing: normal;
+    font-size: 40px;
+    font-family: $my-font-main;
+    border-bottom: 1px solid #605a53;
 }
 
 .data__design{
     margin: 0 auto;
     align-self: center;
-    & h1{
+    & .tittle__p{
         @include escrituras;
+        font-size: 45px;
         line-height: 40px;
+        color: #222222
     }
     & h2{
         @include escrituras;

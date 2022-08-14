@@ -200,7 +200,8 @@ body {
   padding: 70px; }
 
 .img__tienda {
-  height: 400px; }
+  height: 270px;
+  width: 100%; }
 
 .btn__tienda {
   background-color: #3e8914; }
@@ -256,16 +257,27 @@ body {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  padding: 20px; }
+  padding: 20px;
+  border-bottom: 2px solid #beb2a4; }
+
+.h1__design {
+  padding: 18px;
+  text-align: center;
+  letter-spacing: normal;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  border-bottom: 1px solid #605a53; }
 
 .data__design {
   margin: 0 auto;
   align-self: center; }
-  .data__design h1 {
+  .data__design .tittle__p {
     text-align: start;
     letter-spacing: normal;
     font-family: "adobe-garamond-pro";
-    line-height: 40px; }
+    font-size: 45px;
+    line-height: 40px;
+    color: #222222; }
   .data__design h2 {
     text-align: start;
     letter-spacing: normal;
@@ -342,6 +354,10 @@ body {
       letter-spacing: normal;
       font-size: 25px; }
   /* Design Responsive */
+  .h1__design {
+    padding: 25px;
+    font-size: 35px;
+    border-bottom: 1px solid #605a53; }
   .section__design {
     display: flex;
     flex-direction: column;
@@ -350,7 +366,7 @@ body {
   .data__design {
     margin: 0 auto;
     align-self: center; }
-    .data__design h1 {
+    .data__design .tittle__p {
       text-align: start;
       letter-spacing: normal;
       font-family: "adobe-garamond-pro";
@@ -359,7 +375,8 @@ body {
     .data__design h2 {
       padding: 5px;
       font-size: 20px;
-      text-align: center; }
+      text-align: center;
+      color: #222222; }
     .data__design p {
       text-align: start;
       letter-spacing: normal;
@@ -426,6 +443,10 @@ body {
       letter-spacing: normal;
       font-size: 20px; }
   /* Design Responsive */
+  .h1__design {
+    padding: 20px;
+    font-size: 30px;
+    border-bottom: 1px solid #605a53; }
   .section__design {
     display: flex;
     flex-direction: column;
@@ -434,16 +455,17 @@ body {
   .data__design {
     margin: 0 auto;
     align-self: center; }
-    .data__design h1 {
+    .data__design .tittle__p {
       text-align: start;
       letter-spacing: normal;
       font-family: "adobe-garamond-pro";
       line-height: 30px;
-      font-size: 30px; }
+      font-size: 25px; }
     .data__design h2 {
       padding: 5px;
       font-size: 20px;
-      text-align: center; }
+      text-align: center;
+      color: #222222; }
     .data__design p {
       text-align: start;
       letter-spacing: normal;
@@ -498,7 +520,7 @@ body {
   .section__p {
     margin: 0 auto;
     align-self: center; }
-    .section__p h1 {
+    .section__p .tittle__p {
       text-align: start;
       letter-spacing: normal;
       font-family: "adobe-garamond-pro";
@@ -530,4 +552,11 @@ body {
     .envios__ubicacion .p__ubicacion {
       text-align: center;
       padding: 10px;
-      font-size: 20px; } }
+      font-size: 20px; }
+  /* Tienda Responsive */
+  .img__tienda {
+    height: 200px;
+    width: 100%; }
+  .btn__tienda {
+    background-color: #3e8914;
+    width: 150px; } }
