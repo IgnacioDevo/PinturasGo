@@ -426,6 +426,8 @@ body {
       align-self: center;
       font-size: 25px;
       padding: 13px; }
+  .footer__tienda li i {
+    font-size: 20px; }
   /* Nav Responsive */
   .nav__link {
     padding: 5px;
