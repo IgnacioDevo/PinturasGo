@@ -196,8 +196,14 @@ body {
   background-color: #E3DAC9; }
 
 /* CSS TIENDA */
-#main__tienda {
+.main__tienda {
   padding: 70px; }
+
+.h1__tienda {
+  padding: 5px;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Rubik", sans-serif; }
 
 .img__tienda {
   height: 270px;
@@ -409,7 +415,12 @@ body {
     width: 360px; }
   .main__form p {
     padding: 15px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  /* Tienda Responsive */
+  .h1__tienda {
+    padding: 0;
+    font-size: 25px;
+    color: #424949; } }
 
 @media screen and (min-width: 330px) and (max-width: 430px) {
   /* Footer Responsive */
@@ -500,7 +511,12 @@ body {
     width: 330px; }
   .main__form p {
     padding: 15px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  /* Tienda Responsive */
+  .h1__tienda {
+    padding: 0;
+    font-size: 25px;
+    color: #424949; } }
 
 /* Medidas para Tablets */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -573,4 +589,8 @@ body {
     width: 100%; }
   .btn__tienda {
     background-color: #3e8914;
-    width: 150px; } }
+    width: 150px; }
+  .h1__tienda {
+    padding: 0;
+    font-size: 30px;
+    color: #424949; } }

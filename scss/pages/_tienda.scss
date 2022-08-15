@@ -1,7 +1,14 @@
 /* CSS TIENDA */
 
-#main__tienda{
+.main__tienda{
     padding: 70px;
+}
+
+.h1__tienda{
+    padding: 5px;
+    text-align: center;
+    font-size: 45px;
+    font-family: $my-font-main;
 }
 
 .img__tienda{
